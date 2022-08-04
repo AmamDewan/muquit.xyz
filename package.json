@@ -1,0 +1,22 @@
+{
+  "name": "vite-tailwind-starter",
+  "description": "NoJS Vite + Tailwind CSS Starter",
+  "version": "0.0.0",
+  "keywords": [
+    "website"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "purecss-sass": "^2.1.0",
+    "sass": "^1.54.2",
+    "vite": "^3.0.2",
+    "vite-plugin-pug-transformer": "^1.0.2"
+  }
+}
