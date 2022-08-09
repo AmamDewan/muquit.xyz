@@ -1,0 +1,68 @@
+body
+  background-color: $primary-bg-color
+  color: $primary-text-color
+  font-family: Fira Code
+
+main
+  height: 100%
+  & > .pure-g
+    height: 100%
+    align-content: center
+    justify-content: center
+
+a
+  text-decoration: none
+  color: $primary-text-color
+  &:hover
+    color: $primary-color
+
+.banner
+  background-color: $secondary-bg-color
+  padding: 2em
+  border:
+    width: 2px
+    style: solid
+    color: $primary-color
+
+#greet
+  font-size: 72px
+  margin-bottom: 20px
+
+#intro
+  font-size: 48px
+  margin-bottom: 40px
+  & > b
+    color: $primary-color
+    &::before
+      content: " "
+
+#skills
+  font-size: 24px
+  margin-bottom: 60px
+  & > ul
+    list-style: none
+    padding-left: unset
+    & > li
+      display: inline
+      &::after
+        content: "//"
+        padding: 0.2em
+        color: $secondary-text-color
+    & > li:last-child::after
+      content: ""
+      padding: unset
+
+#contact
+  font-size: 24px
+  & > ul
+    list-style: none
+    padding-left: unset
+    & > li
+      display: inline
+      &::after
+        content: " "
+        padding: 8px
+        color: $secondary-text-color
+    & > li:last-child::after
+      content: ""
+      padding: unset
