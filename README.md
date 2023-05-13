@@ -1,5 +1,6 @@
-# Sadman.xyz
-Source code of https://sadman.xyz, a simple and minimalistic personal website.
+* this repo is forked from [Sadman.xyz](https://gitlab.com/KaziSadmanAhmed/sadman.xyz)
+# Muquit.xyz
+Source code of https://muquit.xyz, a simple and minimalistic personal website.
 
 ## Features
 - Simple and minimalistic design
